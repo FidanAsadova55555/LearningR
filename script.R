@@ -11,3 +11,6 @@ sales_matrix <- matrix(
     ncol = 3
 )
 print(sales_matrix)
+text <- "55"
+converted_number <- as.numeric(text)
+print(class(converted_number))
